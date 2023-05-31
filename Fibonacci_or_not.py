@@ -10,4 +10,3 @@ if c==n:
     print(True)
 else:
     print(False)
-    
