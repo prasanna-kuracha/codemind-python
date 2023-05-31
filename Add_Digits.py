@@ -5,10 +5,10 @@ def fun(n):
         s=s+r
         n=n//10
     if s<=9:
-        print(s)
+       print(s)
     else:
-        fun(s)
+       fun(s)
+
+
 n=int(input())
 fun(n)
-
-    
