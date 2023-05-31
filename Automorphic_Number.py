@@ -1,15 +1,15 @@
 n=int(input())
-s=1
 k=n*n
+c=1
 while n!=0:
     r=n%10
     m=k%10
     if r!=m:
-        s=0
+        c=0
         break
     n=n//10
     k=k//10
-if s==1:
-    print("Automorphic Number")
+if c==0:
+    print('Not an Automorphic Number')
 else:
-    print("Not an Automorphic Number")
+    print('Automorphic Number')
