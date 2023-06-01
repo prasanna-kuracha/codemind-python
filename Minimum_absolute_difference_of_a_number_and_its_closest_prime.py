@@ -7,17 +7,16 @@ n=int(input())
 for i in range(n,2*n):
     if fun(i)==1:
         x=i
-        y=abs(n-x)
+        k=abs(n-x)
         break
-for i in range(n,1,-1):
+for i in range(n,0,-1):
     if fun(i)==1:
         p=i
-        m=abs(n-p) 
+        m=abs(n-p)
         break
-if y==m:
-    print(y)
-elif y<m:
-    print(y)
+if k==m:
+    print(k)
+elif k<m:
+    print(k)
 else:
     print(m)
-        
