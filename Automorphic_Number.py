@@ -10,6 +10,6 @@ while n!=0:
     n=n//10
     k=k//10
 if c==1:
-    print('Not an Automorphic Number')
+    print("Not an Automorphic Number")
 else:
-    print('Automorphic Number')
+    print("Automorphic Number")
