@@ -1,3 +1,3 @@
-s=input()
-s=s.split()
-print(len(s))
+n=input()
+n=n.split()
+print(len(n))
