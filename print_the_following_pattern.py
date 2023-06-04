@@ -1,6 +1,5 @@
 n=int(input())
-f=ord('A')
-for i in range(f,f+n,1):
-    for j in range(f,f+n,1):
-        print(chr(i),end=' ')
-    print()  
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()    
