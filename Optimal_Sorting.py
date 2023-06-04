@@ -1,6 +1,6 @@
 n=int(input())
 for i in range(1,n+1):
-    g=int(input())
+    m=int(input())
     a=list(map(int,input().split()))
     b=sorted(a)
     if b==a:
