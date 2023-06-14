@@ -1,14 +1,14 @@
 n=int(input())
 a=list(map(int,input().split()))
 k=int(input())
-s=0
 b=[]
+s=0
 for i in a:
-    if k==a.count(i):
+    if a.count(i)==k:
         if i not in b:
             b.append(i)
             s=1
 if s==1:
-    print(*b,end=' ')
+    print(*b)
 else:
     print('-1')
